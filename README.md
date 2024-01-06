@@ -1,7 +1,7 @@
-Автотесты для сервиса Stellar Burgers:
-- успешная регистрация и некорректный пароль - test_registration;
-- вход пользователя с разных страниц и выход пользователя - test_login_logout;
-- переходы по разделам сайта - test_tabs;
-- переходы по составляющим конструктора - test_constructor.
+Autotests for the Stellar Burgers service:
+- successful registration and incorrect password - test_registration;
+- user login from different pages and user logout - test_login_logout;
+- transitions to sections of the site - test_tabs;
+- transitions through the components of the constructor - test_constructor.
 
-Фикстуры хранятся в conftest, локаторы - в файле locators.
+Fixtures are stored in conftest, locators are stored in the locators file.
